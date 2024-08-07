@@ -253,7 +253,7 @@ final class Cookie {
 	public function setPartitioned($partitioned)
 	{
 		if ($partitioned) {
-			$partitioned = 'Partitioned';
+			$partitioned = self::PARTITIONED;
 		}
 		else {
 			$partitioned = null;
